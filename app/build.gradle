@@ -10,10 +10,12 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('keystore')
-            storePassword 'password'
+            storeFile file('D:\\Android Projects\\Keys\\netflix-keystore.jks')
+            storePassword '123456'
             keyAlias 'key0'
-            keyPassword 'password'
+            keyPassword '123456'
+        }
+        'netflix-config' {
         }
     }
     compileSdk 32
